@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+body {
+  background: url("../Assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  width: 350px;
+  height: 450px;
+  background: inherit;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  border-radius: 8px;
+}
+#container:before {
+  width: 400px;
+  height: 550px;
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  bottom: 0;
+  right: 0;
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  color: azure;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.social-container {
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  color: #dddddd;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+
+.textdown {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  font-weight: 200;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+form {
+position: relative;
+margin: auto;
+padding-top: 20px;
+}
+
+.form_container{
+  text-align: center;
+  color: white;
+}
+input {
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+  border-radius: 20px;
+  transition: all 0.6s ease-in-out;
+}
+input:focus{
+  border: 1px solid white;
+}
+
+::placeholder { 
+  color: rgb(255, 255, 255);
+  opacity: 1; 
+}
+*:focus {
+  outline: none;
+}
+
+.forget_text{
+padding-top: 20px;
+}
+button.login_btn{
+background:wheat;
+padding: 12px 15px;
+background: inherit;
+box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+color: white;
+border:none;
+border-radius: 20px;
+width: 200px;
+}
+
+.login_btn:hover{
+  background:rgb(237, 237, 237);
+  color: black;
+  
+}
+
+.button{
+  text-align: center;
+padding-top: 20px;
+}
+
+.footer_text{
+  text-align: right;
+}
